@@ -1,0 +1,165 @@
+body {
+    background: linear-gradient(90deg, #F8FFFD 0%, #FFFFFF 93.23%);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none
+}
+
+
+.text-ungu {
+    color: #012970; 
+}
+
+
+.text-toska {
+        color: #00FEC1;
+}
+
+.outline-ungu {
+    border: 1px solid #7552F2;
+    color: #7552F2; 
+}
+
+
+.outline-ungu:hover {
+    background-color: #7552F2;
+    color: #fff; 
+}
+
+
+.button {
+    background-color: #7552F2;
+    color: #fff; 
+}
+
+
+.button:hover {
+    background-color: #5634CD;
+    color: #fff; 
+}
+
+
+.card-hover:hover {
+    background-color: #7552F2;
+    color: #fff;
+}
+
+
+.img-banner {
+    width: 100%;
+
+}
+
+
+.logo-list {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.logo-list img {
+    display: inline-block;
+    max-width: 85%;
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: grayscale(100);
+    -moz-filter: grayscale(100);
+    filter: grayscale(100);
+}
+
+
+.logo-list img:hover {
+    filter: none;
+    transform: scale(1.2);
+    -webkit-filter: none;
+    -moz-filter: none;
+}
+
+
+<<<<<<< HEAD
+/* BERITA SECTION */
+.img-size {
+    width: 100%;
+    height: 206px;
+}
+=======
+>>>>>>> b2d8ce82ce77c87ec17d5706a462ac1a4bfb3436
+
+/* HERO SECTION */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/hero-bg.png) top center no-repeat;
+  background-size: cover;
+}
+.hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #012970;
+}
+.hero h2 {
+  color: #444444;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+}
+.hero .btn-get-started {
+  margin-top: 30px;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+.hero .btn-get-started span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.hero .btn-get-started i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.hero .btn-get-started:hover i {
+  transform: translateX(5px);
+}
+.hero .hero-img {
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  .hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 991px) {
+  .hero {
+    height: auto;
+    padding: 120px 0 60px 0;
+  }
+  .hero .hero-img {
+    text-align: center;
+    margin-top: 80px;
+  }
+  .hero .hero-img img {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero h2 {
+    font-size: 24px;
+  }
+  .hero .hero-img img {
+    width: 100%;
+  }
+}
