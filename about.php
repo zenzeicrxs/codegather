@@ -23,7 +23,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-sm navbar-light mx-5 ">
       <div class="container-fluid">
-        <a class="navbar-brand me-5" href="index.php">
+        <a class="navbar-brand me-5" href="#">
           <img src="images/logo.png" alt="" width="175"; height="50">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,14 +42,13 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Jadwal Diklat</a></li>
                 <li><a class="dropdown-item" href="#">Pengumuman</a></li>
-                <li><a class="dropdown-item" href="#">Peserta</a></li>
               </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#berita">Berita</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="faq.html">FAQ</a>
+              <a class="nav-link" href="faq.php">FAQ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#kontak">Kontak</a>
@@ -67,159 +66,204 @@
       </div>
     </nav>
     <!-- Navbar End -->
-    <br><br><br>
 
+    <!-- about start -->
+      <!-- ======= Hero Section ======= -->
+  <section id="hero" class="clearfix">
+          <div class="hero-img" data-aos="zoom-out" data-aos-delay="200">
+        <img src="images/diklat-banner.png" alt="" class="img-fluid w-100 my-5">
+      </div>
+    <div class="container" data-aos="fade-up">
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero d-flex align-items-center mt-5">
+      
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up">CREATE YOUR WEBSITE COMES TRUE</h1>
-            <h4 data-aos="fade-up" data-aos-delay="400">Studio Code Gather Bergerak pada bidang Training, Jasa, dan Colloboration</h4>
-            <div data-aos="fade-up" data-aos-delay="600">
-              <div class=" text-lg-start mt-3">
-                <a href="daftar.php" class="button btn  py-2 px-4">
-                  <span>Daftar Diklat</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
+      <div class="hero-info text-center" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Tentang Kami</h1>
+      </div>
+
+      <header class="section-header">
+          <h3>CODEGATHER</h3>
+          <p>Kami adalah sebuah perusahaan teknologi informasi yang bergerak di bidang pengembangan website. Perusahaan kami berdiri pada tanggal 13 April 2022 yang bertempat di Makassar, Indonesia. CodeGather memiliki kompetensi terbaik untuk mengembangkan bisnis Anda di era digital. D</p>
+          <p>engan tim yang sudah menjadikan pekerjaan sebagai hobi ini tentunya kami akan sepenuh hati melayani anda dengan komitmen memberikan pelayanan terbaik serta membantu bisnis Anda mencapai target potensial.</p>
+        </header>
+
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row about-container">
+          <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
+            <img src="assets/img/about-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <br>
+        <div class="row about-extra">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="images/118.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
+            <h4>VISI</h4>
+            <p>
+              Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+            </p>
+            <p>
+              Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="row about-extra">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <img src="images/103.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
+            <h4>MISI</h4>
+            <p>
+              Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis beatae incidunt sunt.
+            </p>
+            <p>
+              Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
+            </p>
+            <p>
+              Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia exercitationem nam accusantium provident quia.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+    
+    <!-- about end -->
+
+     <!-- ======= Team Section ======= -->
+    <section id="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header text-center">
+          <h3>Team</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="100">
+            <div class="member">
+              <img src="images/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Syarif Rahman</h4>
+                  <span>CEO & UI Designer</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-            <img src="images/hero-img.png" class="img-fluid" alt="">
-          </div>
-        </div>
-      </div>
 
-    </section><!-- End Hero -->
-
-    <!-- Logo List Section Start -->
-    <div class="container my-5">
-      <section class="logo-list">
-
-          <table>
-          <tr>
-            <td><a href="#"><img src="images/kemenperin.png" class="img-fluid w-50 logo-partner" alt="Logo Kemenperin"></a></td>
-            <td><a href="#"><img src="images/spektrumedia.png" class="img-fluid w-50 logo-partner" alt="Logo BDI"></a></td>
-            <td><a href="#"><img src="images/bdi.png" class="img-fluid w-50 logo-partner" alt="Logo Spektrum Media"></a></td>
-            <td><a href="#"><img src="images/bdi.png" class="img-fluid w-50 logo-partner" alt="Logo BCIC"></a></td>
-          </tr>          
-        </table>
-
-
-             
-      </section>
-    </div>
-    <!-- End Logo List Section End -->
-    <br><br>
-
-
-    <!-- About Start -->
-    <div id="about" class="container about my-5 ">
-      <h3 class="text-center fw-bold my-5 text-ungu">TENTANG KAMI</h3> 
-        <div class="row align-items-start">
-         
-          <div class="col">
-            <h3>Code Gather Studio</h3>
-            <p > Kami adalah sebuah perusahaan teknologi informasi yang bergerak di bidang pengembangan website. Perusahaan kami berdiri pada tanggal 13 April 2022 yang bertempat di Makassar, Indonesia. Code Gather memiliki kompetensi terbaik untuk mengembangkan bisnis Anda di era digital</p>
-            <a class="btn button" href="about.php" role="button">Baca Selengkapnya</a>
-          </div>
-
-          <div class="col">
-              <div class="row align-items-center">
-                <div class="col border mr-3 rounded py-4 card-hover">
-                  <h3 class="text-center fw-bold">14</h3>
-                  <p class="text-center">Program Kursus</p>
-                </div>
-
-                <div class="col border mr-3 rounded py-4 card-hover">
-                  <h3 class="text-center fw-bold">6</h3>
-                  <p class="text-center">Trainer Berpengalaman</p>
-                </div>
-
-                <div class="col border mr-3 rounded py-4 card-hover">
-                  <h3 class="text-center fw-bold">14</h3>
-                  <p class="text-center">Siswa</p>
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
+            <div class="member">
+              <img src="images/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sri Nurna Ningsih</h4>
+                  <span>Front End</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
                 </div>
               </div>
+            </div>
           </div>
 
-
-        </div>
-    </div>
-    <!-- About End -->
-
-    <br><br><br>
-
-    <!-- Service Start -->
-    <section id="service" class="container">
-    <h3 class="text-center fw-bold text-ungu">PROGRAM UNGGULAN</h3>
-    <p class="text-center mb-5">Staf kami yang berpengalaman dan berdedikasi menyediakan layanan ini dengan senyuman.</p>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card">
-          <div class="card-body card-hover">
-            <h5 class="card-title">BRANDING & DESIGN</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="300">
+            <div class="member">
+              <img src="images/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>rendi</h4>
+                  <span>Back End</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body card-hover">
-            <h5 class="card-title">WEBSITE DEVELOPMENT</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="400">
+            <div class="member">
+              <img src="images/team-4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ais Ananta</h4>
+                  <span>Analyst</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body card-hover">
-            <h5 class="card-title">COLLABORATION / PARTNERSHIP</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="400">
+            <div class="member">
+              <img src="images/team-5.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Agung</h4>
+                  <span>Analyst</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    </section>
-    <!-- Service End -->
 
-    <br><br>
-
-    <!-- Berita Start -->
-    <section id="berita" class="container">
-    <h3 class="text-center fw-bold my-5 text-ungu">BERITA</h3>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <!-- Tampil data berita start -->
-          <?php
-            include 'config/config.php';
-        
-            $q = $koneksi->query("SELECT * FROM berita ORDER BY id DESC");
-            for ($i = 0; $i < 3; $i++):
-            $dt = $q->fetch_assoc() 
-          ?>
-
-      <div class="col">
-        <div class="card">
-          <img class="img-size" src="images/<?= $dt['gambar'] ?>" class="card-img-top" alt="...">
-          <div class="card-body">
-            <a href="isiberita.php?id=<?= $dt['id'] ?>"><h5 class="card-title text-dark fw-bold"><?= $dt['judul'] ?></h5></a>     
-            <p class="card-text"><?= $dt['p_berita'] ?></p>
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="400">
+            <div class="member">
+              <img src="images/team-6.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Fatwa</h4>
+                  <span>Back End</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-       <?php
-         endfor;
-      ?>
-      <div class="mx-auto text-center mb-5">
-      <a class="btn button" href="berita.php" role="button">Baca Selengkapnya</a>
-      </div>
-    </div>
-    </section>
 
-    <!-- Berita End -->
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
 
     <!-- form Start -->
     <section id="kontak" class="container form bg-white py-5 px-5 my-5 border border-1 rounded-2">
@@ -252,6 +296,14 @@
     <!-- Form End -->
 
 
+
+
+
+
+
+
+
+
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
       <!-- Section Social media Start -->
@@ -260,7 +312,7 @@
       >
         <!-- Left -->
         <div class="me-5 ms-5 d-none d-lg-block text-ungu">
-          <span>Follow media sosial kami untuk mendapatkat informasi terbaru. </span>
+          <span>Follow social media kami untuk mendapatkat informasi terbaru. </span>
         </div>
         <!-- Left -->
 
@@ -346,14 +398,11 @@
       <!-- Copyright -->
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2022 Copyright:
-        <a class="text- fw-bold text-ungu" href="index.php">Codegather.com</a>
+        <a class="text- fw-bold text-ungu" href="https://mdbootstrap.com/">Codegather.com</a>
       </div>
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
-
-
-
 
     <!-- Optional JavaScript; choose one of the two! -->
 
